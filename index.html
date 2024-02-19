@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <link rel="stylesheet" href="bootstrap.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"
+        integrity="sha512-X/YkDZyjTf4wyc2Vy16YGCPHwAY8rZJY+POgokZjQB2mhIRFJCckEGc6YyX9eNsPfn0PzThEuNs+uaomE5CO6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delight Foods</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"
+        integrity="sha512-9CWGXFSJ+/X0LWzSRCZFsOPhSfm6jbnL+Mpqo0o8Ke2SYr8rCTqb4/wGm+9n13HtDE1NQpAEOrMecDZw4FXQGg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css"
+        integrity="sha512-X/RSQYxFb/tvuz6aNRTfKXDnQzmnzoawgEQ4X8nZNftzs8KFFH23p/BA6D2k0QCM4R0sY1DEy9MIY9b3fwi+bg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css"
+        integrity="sha512-f28cvdA4Bq3dC9X9wNmSx21rjWI+5piIW/uoc2LuQ67asKxfQjUow2MkcCNcfJiaLrHcGbed1wzYe3dlY4w9gA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script>
+        $(document).ready(function () {
+            $(".owl-carousel").owlCarousel();
+        });
+    </script>
+    <style>
+        .border-btm {
+            border-bottom: 1px solid black;
+        }
+
+        @media only screen and (max-width:960px) {
+
+            
+            .myh2 {
+                position: absolute;
+                top: 190px;
+                left: 140px
+            }
+
+            .bg2 {
+                background-color: #FDF6E6;
+            }
+
+            .dining {
+                background-color: burlywood;
+            }
+
+            .bar1 {
+                background-color: burlywood;
+            }
+
+            #fontstyle {
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            }
+
+        }
+
+        @media only screen and (min-width:961px) {
+            .navbar-nav {
+                margin-left: 400px;
+            }
+
+            .myh2 {
+                position: absolute;
+                top: 190px;
+                left: 140px
+            }
+
+            .carousel-caption {
+                position: absolute;
+                top: 200px;
+                left: 250px;
+                font-size: 35px;
+
+            }
+
+            .myy1 {
+                position: absolute;
+                left: 140px;
+                top: 1090px;
+            }
+
+            .myy2 {
+                position: absolute;
+                left: 600px;
+                top: 1090px;
+            }
+
+            .myy3 {
+                position: absolute;
+                left: 1030px;
+                top: 1090px;
+            }
+
+            .bg2 {
+                background-color: #FDF6E6;
+            }
+
+            .dining {
+                background-color: burlywood;
+            }
+
+            .bar1 {
+                background-color: burlywood;
+            }
+
+            #fontstyle {
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            }
+
+        }
+    </style>
+</head>
+
+<body class="body" id="fontstyle">
+    <nav class="navbar navbar-expand-md fixed-top  border-btm" style="background-color:#FEF7E7;">
+        <div class="container-fluid">
+            <img src="images/logo.png" alt="" height="70" width="70"><a href="" class="navbar-brand text-dark ">
+                <h1 id="fontstyle">&nbsp;&nbsp;&nbsp; Delight Foods</h1>
+            </a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mynav">
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+            <div class="collapse navbar-collapse p-3" id="mynav">
+                <ul class="navbar-nav">
+                    <li class="nav-item h5"><a href="" class="nav-link active text-danger">Home</a></li>
+                    <li class="nav-item h5 "><a href="about.html" class="nav-link">About</a></li>
+                    <li class="nav-item h5"><a href="menu.html" class="nav-link">Menu</a></li>
+                    <li class="nav-item h5"><a href="locations.html" class="nav-link">Locations</a></li>
+                    <li class="nav-item h5"><a href="contact.html" class="nav-link">Contact</a></li>
+                    <li class="nav-item h5 "><a href="" class="nav-link" data-bs-toggle="modal"
+                            data-bs-target="#mymodal" style="color: rgb(1, 1, 1);">Bookings </a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+    </nav>
+    <div class="container-fluid ">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="carousel slide" id="mycar" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+
+                        <div class="carousel-item active">
+                            <img src="images/slider-1a.jpg" alt="images/slider-1a.jpg" class="img-fluid">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/slider-1.jpg" alt="images/slider-1.jpg" class="img-fluid col-sm-12">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/slider-2.jpg" alt="images/slider-2.jpg" class="img-fluid">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/slider-3.jpg" alt="images/slider-3.jpg" class="img-fluid">
+                        </div>
+                        <button class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#mycar">
+                            <span class="carousel-control-prev-icon"></span>
+
+                        </button>
+                        <button class="carousel-control-next " data-bs-slide="next" data-bs-target="#mycar">
+                            <span class="carousel-control-next-icon"></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <br><br><br>
+    <div class="container-fluid d-flex justify-content-center ">
+        <div class="row">
+            <div class="col-md-12">
+                <div>
+                    <h3 id="fontstyle">" Delicious Memorable Tastes "</h3>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid d-flex justify-content-center ">
+        <div class="row">
+            <div class="col-12 col-md-12">
+
+                <h3 id="fontstyle">The Ultimate Andhra Dining Experience With In The Two Telugu States</h3>
+                <br>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row ">
+            <div class="col-12 col-md-4" id="fontstyle">
+                <img src="images/promo-3.png" alt="images/promo-3.png" class="img-fluid">
+                <!-- <h2 class="myy1">Rajahmundry</h2> -->
+            </div>
+
+            <div class="col-12 col-md-4" id="fontstyle">
+                <img src="images/promo-1.png" alt="images/promo-1.png" class="img-fluid">
+
+                <!-- <h2 class="myy2">Hyderabad</h2> -->
+            </div>
+            <div class="col-12 col-md-4" id="fontstyle">
+                <img src="images/promo-2.png" alt="images/promo-2.png" class="img-fluid">
+
+                <!-- <h2 class="myy3">Visakhapatnam</h2> -->
+            </div>
+
+        </div>
+    </div>
+    <br><br><br><br><br><br>
+    <div class="bg2" id="fontstyle">
+        <div class="container-fluid d-flex justify-content-center pt-5 ">
+            <div class="row">
+                <div class="col-md-12">
+                    <div>
+                        <h3>Delight Foods</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid d-flex justify-content-center pb-5">
+            <div class="row">
+                <div class="col-md-12">
+                    <div>
+                        <h1>Signature Dishes</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="owl-carousel row">
+                <div class="col-md-2">
+                    <div class="img-content">
+                        <img src="images1/project-1.jpg" alt="images1/project-1.jpg" srcset="">
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="img-content">
+                        <img src="images1/project-2.jpg" alt="images1/project-2.jpg" srcset="">
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="img-content">
+                        <img src="images1/project-3.jpg" alt="images1/project-3.jpg" srcset="">
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="img-content">
+                        <img src="images1/project-4.jpg" alt="images1/project-4.jpg" srcset="">
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="img-content">
+                        <img src="images1/project-5.jpg" alt="images1/project-5.jpg" srcset="">
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="img-content">
+                        <img src="images1/project-6.jpg" alt="images1/project-6.jpg" srcset="">
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="img-content">
+                        <img src="images1/project-7.jpg" alt="images1/project-7.jpg" srcset="">
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="img-content">
+                        <img src="images1/project-8.jpg" alt="images1/project-8.jpg" srcset="">
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="img-content">
+                        <img src="images1/project-9.jpg" alt="images1/project-9.jpg" srcset="">
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="img-content">
+                        <img src="images1/project-10.jpg" alt="images1/project-10.jpg" srcset="">
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="img-content">
+                        <img src="images1/project-11.jpg" alt="images1/project-11.jpg" srcset="">
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="img-content">
+                        <img src="images1/project-2.jpg" alt="images1/project-2.jpg" srcset="">
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="img-content">
+                        <img src="images1/project-3.jpg" alt="images1/project-3.jpg" srcset="">
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="img-content">
+                        <img src="images1/project-4.jpg" alt="images1/project-4.jpg" srcset="">
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="img-content">
+                        <img src="images1/project-6.jpg" alt="images1/project-6.jpg" srcset="">
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="img-content">
+                        <img src="images1/project-5.jpg" alt="images1/project-5.jpg" srcset="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br><br><br><br>
+        <div class="dining">
+
+            <div class="container pb-3 ">
+                <div class="row">
+                    <div class="col-md-6">
+                        <br><br><br><br><br>
+                        <h3> Dining</h3>
+                        <h4 class="text-dark">Experiance a Great Feel with us </h4>                        
+                        <p>THE ULTIMATE ANDHRA DINING EXPERIENCE IN TWO TELUGU STATES,</p>
+                        <br>
+                        <p>We at Delight Foods believe in serving the best and authentic Cuisines creating a
+                            experience to cherish, unlike a mere dine in. From spicy Indian curries to Chinese delicacies, From
+                            lavish seafood dishes to vegetarian varieties we serve them all. Come and Join us for a memorable
+                            dining experience</p>
+                    </div>
+                    <div class="col-md-6 pt-5">
+                        <img src="images1/request-bg.png" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+
+        <div class="bar1">
+            <div class="container pb-3">
+                <div class="row">
+                    <div class="col-md-7">
+                        <br><br><br><br><br>
+                        <h3>BANQUET HALLS</h3>
+                        <h4> Elegant Spaces</h4>
+                        <br>
+                        <p>Banquet Hall at Delight Foods, KPHB is a large venue that is used for hosting events
+                            such as weddings, conferences, parties, and other special occasions. These halls are designed
+                            to  accommodate large groups of people and provide ample space for dining, dancing, and
+                            socializing. The interior of a Banquet Hall is usually elegant and sophisticated, with a spacious
+                            floor plan and a warm, inviting atmosphere. The staff at these venues are highly trained and
+                            experienced in event planning and management, ensuring that each event runs smoothly and
+                            seamlessly</p> </div>
+                    <div class="col-md-5 pt-5">
+                        <img src="images1/hall1.jpg" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+
+
+
+        <div class="bar1">
+            <div class="container-fluid pb-5 ">
+                <div class="row">
+                    <div class="col-md-12 p-4  mt-3">
+                        <h5 class="d-flex justify-content-center text-white">Inner views of our Coustomers</h5>
+                        <h3 class="d-flex justify-content-center text-white">"Why they Us & Delight Foods favorite to them"</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-1">
+                    </div>
+                    <div class="col-md-2 bg-white p-4 " style="height: 340px; width:300px">
+                        <div class="d-flex justify-content-center">
+                            <h3>Ram Babu</h3>
+                        </div>
+                        <div class="d-flex justify-content-center">                            
+                            <h4>(Rajahmundry)</h4>
+                        </div>
+                        <div>
+                            <p> If you ever get tired of Hyderabad Biryani, you can set in here for some delicious
+                                food Andhra style Biryani's. I have ordered an Apollo fish. The
+                                ambience including all food items is decent and like by many of my family & friends!!.
+                                <br><br>
+                            <div class="d-flex justify-content-center">
+                                <img src="images1/star1.png" class="img-fluid">
+                            </div>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-1"></div>
+                    <div class="col-md-2 bg-white p-4 " style="height: 340px; width:300px">
+                        <div class="d-flex justify-content-center">
+                            <h3>Sita Ramaiah</h3>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <h4>(Hyderabad)</h4>
+                        </div>
+                        <div>
+                            <p>Good place.. very polite staff was excellent service and was awesome food. The Andhra
+                                meals here are not the typical meals you get in a blore Nandini . it's one different
+                                the quality of food is so good, visit this place for
+                                an authentic Telugu meal.
+                            <div class="d-flex justify-content-center">
+                                <img src="images1/star1.png" class="img-fluid">
+                            </div>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-1"></div>
+                    <div class="col-md-2 bg-white p-4 " style="height: 340px; width:300px">
+                        <div class="d-flex justify-content-center">
+                            <h3>Ram Charan</h3>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <h4>(Vizag)</h4>
+                        </div>
+                        <div>
+                            <p>Fantastic feel with in the Delight Foods is one of the best restaurant . I am frequently visiting.
+                                Everything is amazing ambiance food quality and serving. Had good exp.. Waiting
+                                irritates you but food is served you will say worth waiting for that Food values alot More.
+                            <div class="d-flex justify-content-center">
+                                <img src="images1/star1.png" class="img-fluid">
+                            </div>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-1"></div>
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <div class="modal fade" id="mymodal">
+            <div class="modal-dialog">
+                <div class="modal-content d-flex justify-content-center">
+                    <div class="modal-header "> 
+                        <h2 class="modal-title text-danger ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Delight Foods</h2>
+                        <a href="" class="btn-close" data-bs-dismiss="modal"></a>
+                    </div>
+                    <div class="modal-body">
+                        <img src="images/mODAL.jpg" class="img-fluid">
+                        <div class="modal-footer">
+                            <h2>FOR BOOKINGS: 8888888888</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="bg-black text-white row">
+                <div class="d-flex justify-content-start  col-md-5 pt-5">
+                    <p class="">&nbsp;&nbsp;&nbsp;©2019 COPYRIGHT RESERVED TO Sai Karthik. </p>
+                </div>
+                <div class="col-md-3"></div>
+                <div class=" justify-content-end col-md-4 pt-4">
+
+                    <p>WEBSITE POWERED BY THE DR REDDY'S FOUNDATION (Bhaskar Ch).</p>
+                    <p>
+                        DESIGN & DEVELOPED by Team Delight Foods (Sai Karthik). 
+                    </p>
+                </div>
+            </div>
+        </footer>
+</body>
+
+</html>

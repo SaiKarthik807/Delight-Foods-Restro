@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delight Foods</title>
+
+
+    <link rel="stylesheet" href="bootstrap.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"
+        integrity="sha512-X/YkDZyjTf4wyc2Vy16YGCPHwAY8rZJY+POgokZjQB2mhIRFJCckEGc6YyX9eNsPfn0PzThEuNs+uaomE5CO6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <style>
+        @media only screen and (max-width:960px) {
+            .about {
+                position: absolute;
+                top: 200px;
+
+            }
+
+            body {
+                background-color: #FEF7E7;
+            }
+
+            .bg2 {
+                background-color: #D2AB84;
+            }
+
+
+            .menuheading {
+                position: absolute;
+                top: 100px;
+                left: 20px;
+                color: aliceblue;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                font-size: 15px;
+            }
+
+            #fontstyle {
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            }
+
+            /* .breadcrumb {
+                position: absolute;
+                top: 270px;
+                left: 130px;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                font-size: 18px;
+            } */
+            .border-btm {
+            border-bottom: 1px solid black;
+        }
+
+        }
+
+
+
+        @media only screen and (min-width:961px) {
+            .menuheading {
+                position: absolute;
+                top: 270px;
+                left: 130px;
+                color: aliceblue;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                font-size: 35px;
+            }
+
+            .navbar-nav {
+                margin-left: 400px;
+            }
+
+            body {
+                background-color: #FEF7E7;
+            }
+
+            .bg2 {
+                background-color: #D2AB84;
+            }
+
+            #fontstyle {
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            }
+
+            .breadcrumb {
+                position: absolute;
+                top: 305px;
+                left: 130px;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                font-size: 18px;
+            }
+
+            .border-btm {
+                border-bottom: 1px solid black;
+            }
+
+        }
+    </style>
+</head>
+
+<body id="fontstyle">
+    <header class="">
+        <nav class="navbar navbar-expand-md fixed-top  border-btm" style="background-color:#FEF7E7;">
+            <div class="container-fluid">
+                <img src="images/logo.png" alt="" height="70" width="70"><a href="" class="navbar-brand text-dark ">
+                    <h2 id="fontstyle">&nbsp;&nbsp;&nbsp; Delight Foods</h2>
+                </a>
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mynav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse p-3  " id="mynav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item h5"><a href="index.html" class="nav-link">Home</a></li>
+                        <li class="nav-item h5 "><a href="about.html" class="nav-link">About</a></li>
+                        <li class="nav-item h5"><a href="menu.html" class="nav-link active text-danger">Menu</a></li>
+                        <li class="nav-item h5"><a href="locations.html" class="nav-link">Locations</a></li>
+                        <li class="nav-item h5"><a href="contact.html" class="nav-link">Contact</a></li>
+                        <li class="nav-item h5"><a href="" class="nav-link" data-bs-toggle="modal"
+                                data-bs-target="#mymodal" style="color:rgb(1, 1, 1);">Bookings</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-12">
+                <div>
+                    <img src="images/page-header-menu.png" alt="" class="img-fluid col-sm-12">
+                    <h1 class="menuheading">MENU</h1>
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="index.html" style="color: rgb(177, 173, 173);">Home</a>
+                        </li>
+
+                        <li class="breadcrumb-item active" style="color: #D2AB84;">MENU</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h3 id="fontstyle">SOUPS</h3>
+                        <div class="row" id="fontstyle">
+                            <div class="col-8">Tomato Soup </div>
+                            <div class="col-4">130 /-</div>
+                            <div class="col-8">Veg.Corn Soup </div>
+                            <div class="col-4">140 /-</div>
+                            <div class="col-8">Veg.Lemon & Coriendor </div>
+                            <div class="col-4">150 /-</div>
+                            <div class="col-8">Veg.Hot & Sour Soup </div>
+                            <div class="col-4">150 /-</div>
+                            <div class="col-8">Veg.Manchow Soup </div>
+                            <div class="col-4">150 /-</div>
+                            <div class="col-8">Chicken Corn Soup </div>
+                            <div class="col-4">150 /-</div>
+                            <div class="col-8">Chicken Hot & Sour Soup </div>
+                            <div class="col-4">160 /-</div>
+                            <div class="col-8">Chicken Manchow Soup </div>
+                            <div class="col-4">160 /-</div>
+                            <div class="col-8">Chicken Lemon & Coriendor </div>
+                            <div class="col-4">160 /-</div>
+
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <h3 id="fontstyle">SPRING ROLLS</h3>
+                        <div class="row" id="fontstyle">
+                            <div class="col-8">Veg.Shangai Roll </div>
+                            <div class="col-4">210 /-</div>
+                            <div class="col-8">Chicken Shangai Roll</div>
+                            <div class="col-4">230 /-</div>
+                            <div class="col-8">Mutton Roll </div>
+                            <div class="col-4">250 /-</div>
+                            <div class="col-8">Prawns Roll </div>
+                            <div class="col-4">260 /-</div>
+                        </div>
+                        <br>
+                        <h3 id="fontstyle">NOODELS</h3>
+                        <div class="row" id="fontstyle">
+                            <div class="col-8">Veg Hakka Noodles </div>
+                            <div class="col-4">200 /-</div>
+                            <div class="col-8">Schezwan Veg Noodles </div>
+                            <div class="col-4">210 /-</div>
+                            <div class="col-8">Chicken Hkka Noodles </div>
+                            <div class="col-4">220 /-</div>
+                            <div class="col-8">Chicken Garlic Noodles </div>
+                            <div class="col-4">220 /-</div>
+                            <div class="col-8">schezwan Chicken Noodles </div>
+                            <div class="col-4">220 /-</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-4 p-2 img-thumbnail">
+                    <img class="img-fluid" src="images/Menu/1.jpg">
+                </div>
+                <div class="col-md-6 col-lg-4 p-2 img-thumbnail">
+                    <img class="img-fluid" src="images/Menu/2.jpg">
+                </div>
+                <div class="col-md-6 col-lg-4 p-2 img-thumbnail">
+                    <img class="img-fluid" src="images/Menu/3.jpg">
+                </div>
+            </div>
+        </div>
+        <br>
+
+        <div class="container menu">
+            <div class="row about-inner-wrap">
+                <div class="col-md-6 xs-padding">
+                    <div class="about-inner-content ">
+                        <h3 id="fontstyle">VEG.STARTERS</h3>
+                        <div class="row" id="fontstyle">
+                            <div class="col-8">Veg-65</div>
+                            <div class="col-4">200 /- </div>
+                            <div class="col-8">Veg Manchurian(Dry/Wet) </div>
+                            <div class="col-4">210 /- </div>
+                            <div class="col-8">Gobi-65(Seasonal) </div>
+                            <div class="col-4">210 /- </div>
+                            <div class="col-8">Chili Gobi(Dry/Wet) </div>
+                            <div class="col-4">210 /- </div>
+                            <div class="col-8">Gobi Manchurian(Dry/Wet) </div>
+                            <div class="col-4">210 /- </div>
+                            <div class="col-8">Veg.RR </div>
+                            <div class="col-4">230 /- </div>
+                            <div class="col-8">Crispy Baby Corn </div>
+                            <div class="col-4">230 /- </div>
+                            <div class="col-8">Chilli Baby Corn(Dry/Wet) </div>
+                            <div class="col-4">230 /- </div>
+                            <div class="col-8">Baby Corn Manchurian(Dry/Wet) </div>
+                            <div class="col-4">230 /- </div>
+                            <div class="col-8">Crispy Corn </div>
+                            <div class="col-4">230 /- </div>
+                            <div class="col-8">Chilli Mashroom(Dry/Wet) </div>
+                            <div class="col-4">230 /- </div>
+                            <div class="col-8">Paneer-65 </div>
+                            <div class="col-4">230 /- </div>
+                            <div class="col-8">Chilli Parneer(Dry/Wet) </div>
+                            <div class="col-4">230 /- </div>
+                            <div class="col-8">Paneer Manchurian </div>
+                            <div class="col-4">230 /- </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 xs-padding">
+                    <div class="about-inner-content ">
+                        <h3 id="fontstyle">NON VEG STARTES</h3>
+                        <div class="row" id="fontstyle">
+                            <div class="col-8"> Chicken-65 </div>
+                            <div class="col-4">250 /- </div>
+                            <div class="col-8"> Garlic Chicken(Dry/Wet) </div>
+                            <div class="col-4">250 /- </div>
+                            <div class="col-8"> Lemon Chicken </div>
+                            <div class="col-4">250 /- </div>
+                            <div class="col-8"> chicken Fry (B.L) </div>
+                            <div class="col-4">250 /- </div>
+                            <div class="col-8"> Chilli Chicken(Dry/Wet) </div>
+                            <div class="col-4">250 /- </div>
+                            <div class="col-8"> Chicken Dry Roast </div>
+                            <div class="col-4">250 /- </div>
+                            <div class="col-8"> Chicken Machurian (Dry/Wet) </div>
+                            <div class="col-4">250 /- </div>
+                            <div class="col-8"> Chicken-555 </div>
+                            <div class="col-4">250 /- </div>
+                            <div class="col-8"> Pepper Chicken </div>
+                            <div class="col-4">250 /- </div>
+                            <div class="col-8"> Chicken Majestic </div>
+                            <div class="col-4">260 /- </div>
+                            <div class="col-8 spl"> Chicken RR </div>
+                            <div class="col-4">260 /- </div>
+                            <div class="col-8"> Chicken Lollipop </div>
+                            <div class="col-4">260 /- </div>
+                            <div class="col-8"> Chicken Chilli Wings </div>
+                            <div class="col-4">260 /- </div>
+                            <div class="col-8">Red Hot Chicken </div>
+                            <div class="col-4">240 /- </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-4 p-2 img-thumbnail">
+                    <img class="img-fluid" src="images/Menu/4.jpg">
+                </div>
+                <div class="col-md-6 col-lg-4 p-2 img-thumbnail">
+                    <img class="img-fluid" src="images/Menu/5.jpg">
+                </div>
+                <div class="col-md-6 col-lg-4 p-2 img-thumbnail">
+                    <img class="img-fluid" src="images/Menu/6.jpg">
+                </div>
+            </div>
+        </div>
+        <br>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3 id="fontstyle">TANDOORI</h3>
+                    <div class="row" id="fontstyle">
+                        <div class="col-8"> PannerTikka </div>
+                        <div class="col-4">250 /-</div>
+                        <div class="col-8"> Kalmi Kabab(Half) </div>
+                        <div class="col-4">150 /-</div>
+                        <div class="col-8">Tanoori Chicken(Half) </div>
+                        <div class="col-4">230 /-</div>
+                        <div class="col-8">Chicken Tikka </div>
+                        <div class="col-4">250 /-</div>
+                        <div class="col-8">Kalmi Kabab(Full) </div>
+                        <div class="col-4">260 /-</div>
+                        <div class="col-8"> Fish Tikka </div>
+                        <div class="col-4">280 /-</div>
+                        <div class="col-8"> Tanoori Chicken(Full) </div>
+                        <div class="col-4">390 /-</div>
+                    </div>
+                    <br>
+                    <h3 id="fontstyle">FRIED RICE</h3>
+                    <div class="row" id="fontstyle">
+                        <div class="col-8">Jeera Rice </div>
+                        <div class="col-4">200 /-</div>
+                        <div class="col-8">Veg-Fried Rice </div>
+                        <div class="col-4">210 /-</div>
+                        <div class="col-8"> Schezwan Veg.Fried Rice </div>
+                        <div class="col-4">230 /-</div>
+                        <div class="col-8"> Egg Fried Rice </div>
+                        <div class="col-4">220 /-</div>
+                        <div class="col-8"> Chicken Fried Rice </div>
+                        <div class="col-4">230 /-</div>
+                        <div class="col-8"> Schezwan Chicken Fried Rice </div>
+                        <div class="col-4">250 /-</div>
+                        <div class="col-8"> Sp.Chicken Fried Rice </div>
+                        <div class="col-4">240 /-</div>
+                        <div class="col-8"> Mixed Fried Rice </div>
+                        <div class="col-4">300 /-</div>
+                    </div>
+                </div>
+               
+                <div class="col-md-6">
+                    <h3 id="fontstyle">BIRYANI</h3>
+                    <div class="row" id="fontstyle">
+                        <div class="col-8"> Biryani Rice </div>
+                        <div class="col-4">170 /-</div>
+                        <div class="col-8"> Veg.Biryani </div>
+                        <div class="col-4">190 /-</div>
+                        <div class="col-8"> Egg Biryani </div>
+                        <div class="col-4">220 /-</div>
+                        <div class="col-8"> Sp.Chicken Biryan(Biryani Rice + Boneless curry) </div>
+                        <div class="col-4">250 /-</div>
+                        <div class="col-8"> Chicken Fry Piece Biryani </div>
+                        <div class="col-4">240 /-</div>
+                        <div class="col-8"> Chicken Mughlai Biryani </div>
+                        <div class="col-4">260 /-</div>
+                        <div class="col-8"> Kodi Palav </div>
+                        <div class="col-4">250 /-</div>
+                        <div class="col-8"> Chicken Dum Biryani </div>
+                        <div class="col-4">250 /-</div>
+                        <div class="col-8"> Ulavacharu Biryani </div>
+                        <div class="col-4">260 /-</div>
+                        <div class="col-8"> Fish Biryani </div>
+                        <div class="col-4">300 /-</div>
+                        <div class="col-8"> Prawns Biryani </div>
+                        <div class="col-4">300 /-</div>
+                        <div class="col-8">Mutton Fry Piece Biryani </div>
+                        <div class="col-4">330 /-</div>
+                        <div class="col-8"> Mutton Kheema Biryani </div>
+                        <div class="col-4">330 /-</div>
+                        <div class="col-8"> Mixed Biryani </div>
+                        <div class="col-4">330 /-</div>
+                        <div class="col-8">Mutton Biryani(Dum Piece) </div>
+                        <div class="col-4">320 /-</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- modal -->
+        <div class="modal fade" id="mymodal">
+            <div class="modal-dialog">
+                <div class="modal-content d-flex justify-content-center">
+                    <div class="modal-header ">
+                        <h2 class="modal-title text-danger " id="fontstyle">
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Delight Foods</h2>
+                        <a href="" class="btn-close" data-bs-dismiss="modal"></a>
+                    </div>
+                    <div class="modal-body">
+                        <img src="images/mODAL.jpg" class="img-fluid">
+                        <div class="modal-footer">
+                            <h2 id="fontstyle">FOR BOOKINGS: 888888888</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <footer> 
+            <div class="bg-black text-white row">
+                <div class="d-flex justify-content-start  col-md-5 pt-5">
+                    <p class="" id="fontstyle">&nbsp;&nbsp;&nbsp;©2019 COPYRIGHT RESERVED TO Sai Karthik.</p>
+                </div>
+                <div class="col-md-3"></div>
+                <div class=" justify-content-end col-md-4 pt-4" id="fontstyle">
+
+                    <p>WEBSITE POWERED BY THE DR REDDY'S FOUNDATION (Bhaskar Ch).</p>
+                    <p> DESIGN & DEVELOPED BY Team Delight Foods (Sai Karthik).</p>
+                </div>
+            </div>
+        </footer>
+</body>
+
+</html>
